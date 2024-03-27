@@ -1,0 +1,279 @@
+.menu{
+    background-color: #fff;
+    height: 100vh;
+    position: sticky;
+    border-right: 1px solid rgba(211, 211, 211, 0.025);
+  }
+  .top-logo-div{
+    background-color: rgba(229, 209, 244, 0.734);
+    height: 80px;
+    box-shadow: -2px 3px 5px rgba(103, 59, 102, 0.734);
+  }
+  .top-logo{
+    height: 150px;
+    width: 150px;
+    margin-top: -35px;
+    margin-left: 52px;
+  }
+  #active{
+    color: #521564e3;
+    background-color:rgba(229, 209, 244, 0.734);
+    box-shadow: -2px 3px 5px rgba(103, 59, 102, 0.734);
+  }
+  nav .nav{
+    display: block;
+    padding: 10px 0px 12px 10px;
+    text-decoration: none;
+    color: rgb(99, 84, 23);
+    line-height: 0.8;
+    text-transform: uppercase;
+    font-family: 'Belanosima', sans-serif;
+    border-bottom: 1px solid rgb(186, 186, 186);
+  }
+  nav .nav i{
+    display: block;
+    padding: 0px 5px 0px 10px;
+    color: purple;
+    height: 15px;
+    width: 40px;
+    float: left;
+  }
+  #drop, #drop1, #drop2, #drop3, #drop4, #drop5, #drop6, #drop7, #drop8, #drop9, #drop10, #drop11{
+    float: right;
+  }
+  nav .nav:hover{
+    color: #521564e3;
+    background-color:rgba(229, 209, 244, 0.734);
+    box-shadow: -2px 3px 5px rgba(103, 59, 102, 0.734);
+  }
+
+/* dropdown menu start here*/
+/*---------------------------------Dropdown-1-----------------------------------------*/
+
+#submenu .sub-nav{
+  display: block;
+  color: rgb(99, 84, 23);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: 'Belanosima', sans-serif;
+  border-bottom: 1px solid rgb(186, 186, 186);
+  text-decoration: none;
+  font-size: 13px;
+  padding: 8px 10px 8px 48px;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#submenu .sub-nav i{
+  padding-right: 5px;
+  color: purple;
+}
+#submenu .sub-nav:hover{
+  color: #521564e3;
+  background-color:rgba(229, 209, 244, 0.734);
+  box-shadow: -2px 3px 5px rgba(103, 59, 102, 0.734);
+}
+#submenu{
+  display: none;
+  animation: growDown 500ms ease-in-out forwards;
+  transform-origin: top center;
+}
+@keyframes growDown {
+  0% {
+      transform: scaleY(0)
+  }
+  80% {
+      transform: scaleY(1.1)
+  }
+  100% {
+      transform: scaleY(1)
+  }
+}
+
+/*---------------------------------Dropdown-2-----------------------------------------*/
+
+#submenu1 .sub-nav{
+  display: block;
+  color: rgb(99, 84, 23);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: 'Belanosima', sans-serif;
+  border-bottom: 1px solid rgb(186, 186, 186);
+  text-decoration: none;
+  font-size: 13px;
+  padding: 8px 10px 8px 48px;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#submenu1 .sub-nav i{
+  padding-right: 5px;
+  color: purple;
+}
+#submenu1 .sub-nav:hover{
+  color: #521564e3;
+  background-color:rgba(229, 209, 244, 0.734);
+  box-shadow: -2px 3px 5px rgba(103, 59, 102, 0.734);
+}
+#submenu1{
+  display: none;
+  animation: growDown1 500ms ease-in-out forwards;
+  transform-origin: top center;
+}
+@keyframes growDown1 {
+  0% {
+      transform: scaleY(0)
+  }
+  80% {
+      transform: scaleY(1.1)
+  }
+  100% {
+      transform: scaleY(1)
+  }
+}
+
+/*---------------------------------Dropdown-3-----------------------------------------*/
+
+#submenu2 .sub-nav{
+  display: block;
+  color: rgb(99, 84, 23);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: 'Belanosima', sans-serif;
+  border-bottom: 1px solid rgb(186, 186, 186);
+  text-decoration: none;
+  font-size: 13px;
+  padding: 8px 10px 8px 48px;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#submenu2 .sub-nav i{
+  padding-right: 5px;
+  color: purple;
+}
+#submenu2 .sub-nav:hover{
+  color: #521564e3;
+  background-color:rgba(229, 209, 244, 0.734);
+  box-shadow: -2px 3px 5px rgba(103, 59, 102, 0.734);
+}
+#submenu2{
+  display: none;
+  animation: growDown2 500ms ease-in-out forwards;
+  transform-origin: top center;
+}
+@keyframes growDown2 {
+  0% {
+      transform: scaleY(0)
+  }
+  80% {
+      transform: scaleY(1.1)
+  }
+  100% {
+      transform: scaleY(1)
+  }
+}
+
+/*---------------------------------Dropdown-4-----------------------------------------*/
+
+#submenu3 .sub-nav{
+  display: block;
+  color: #526D82;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 8px 10px 8px 48px;
+  border-bottom: 0.1px solid #afebed;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#submenu3 .sub-nav i{
+  padding-right: 5px;
+}
+#submenu3 .sub-nav:hover{
+  background-color: #059296;
+  color: #fff!important;
+  transition: all 1s;
+  border-radius: 2px;
+}
+#submenu3{
+  display: none;
+  animation: growDown3 500ms ease-in-out forwards;
+  transform-origin: top center;
+}
+@keyframes growDown3 {
+  0% {
+      transform: scaleY(0)
+  }
+  80% {
+      transform: scaleY(1.1)
+  }
+  100% {
+      transform: scaleY(1)
+  }
+}
+/*-----------------------------------Right-Top-Header------------------------------*/
+.top-header{
+  height: 45px;
+  width: 100%;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.top-header .search-area{
+  float: left;
+}
+.top-header .search-area ::placeholder{
+  color: rgb(182, 140, 180);
+}
+.top-header .right-icon-area i{
+  float: right;
+  padding: 10px 10px;
+  font-size: 20px;
+  color: purple;
+  cursor: pointer;
+}
+.top-header .right-icon-area img{
+  float: right;
+  height: 40px;
+  width: 40px;
+  margin-top: 1px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.profile-dropdown{
+  display: block;
+  float: right;
+  position: absolute;
+  top: 50px;
+  right:6px;
+  height: 200px;
+  width: 215px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.profile-dropdown .nav-profile{
+  display: block;
+  text-decoration: none;
+  line-height: 1.5;
+  color: rgb(99, 84, 23);
+  font-weight: 500;
+  font-size: 13px;
+  padding: 9px 10px 10px 10px;
+  border-bottom: 0.1px solid rgba(186, 186, 186, 0.367);
+}
+.profile-dropdown .nav-profile:hover{
+  font-size: 14px;
+  color: #521564e3;
+  background-color:rgba(229, 209, 244, 0.734);
+  box-shadow: 0px 1px 3px rgba(103, 59, 102, 0.734);
+}
+.profile-dropdown .nav-profile i{
+  display: block;
+  float: left;
+  padding: 0px 8px 0px 4px;
+}
+#profile-dropdown1{
+  display: none;
+  animation: 500ms ease-in-out backwards;
+  z-index: 1;
+}
+.profile-dropdown #no-border{
+  color: darkred;
+}
