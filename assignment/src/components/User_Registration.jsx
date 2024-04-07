@@ -41,7 +41,7 @@ const Posting = () => {
         const res = await addUser(formData);
         if (res.status === 201) {
             alert('User Successfully Added');
-            navigate('/UserLogin');
+            navigate('/gets_started');
         }
         else (
             alert('error')
