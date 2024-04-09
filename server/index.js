@@ -21,7 +21,13 @@ app.use(session({
 const PORT = 8000;
 dotenv.config()
 
-app.use(cors());
+const corsConfig = {
+    origin: '',
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE']
+}
+app.use(cors(corsConfig))
+app.options("", cors(corsConfig))
 
 app.use(bodyParser.json({extended : true}))
 app.use(bodyParser.urlencoded({extended : true}))
