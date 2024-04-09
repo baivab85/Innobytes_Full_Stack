@@ -12,6 +12,10 @@ const router = express.Router();
 
 const app = express()
 
+app.get('/', (req, res) => {
+    res.json({server: 'Running..!'});
+});
+
 app.use(session({
     secret: 'your-secret-key',
     resave: false,
@@ -29,9 +33,7 @@ const corsConfig = {
 app.use(cors(corsConfig))
 app.options("", cors(corsConfig))
 
-app.get('/', (req, res) => {
-    res.json({server: 'Running..!'});
-});
+
 
 app.use(bodyParser.json({extended : true}))
 app.use(bodyParser.urlencoded({extended : true}))
